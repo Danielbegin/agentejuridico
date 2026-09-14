@@ -1,0 +1,16 @@
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Chaves de API e variáveis de ambiente
+.env
+
+# Pesos de modelos muito pesados
+*.bin
+*.safetensors
+checkpoint-*/

@@ -1,0 +1,17 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Copia os arquivos de requisitos e instala as dependências
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia todo o código da aplicação
+COPY . .
+
+# Expõe a porta dinâmica do Cloud Run
+ENV PORT=8080
+EXPOSE 8080
+
+# Executa o FastAPI com Uvicorn
+CMD ["uvicorn", "bertimbaunano:app", "--host", "0.0.0.0", "--port", "8080"]

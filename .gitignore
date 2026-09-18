@@ -14,3 +14,6 @@ env/
 *.bin
 *.safetensors
 checkpoint-*/
+dataset*.csv
+bertimbau_triagem_juridica*/
+results/

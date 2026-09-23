@@ -1,14 +1,23 @@
 ## 😁 Como usar
-# Copie o Repositório
-'''git clone https://github.com/Danielbegin/agentejuridico.git
+### Copie o Repositório
+git clone https://github.com/Danielbegin/agentejuridico.git
 cd agentejuridico
-'''
-# Criei e ative um ambiente virtual
-'''python -m venv .venv
+
+### Criei e ative um ambiente virtual
+python -m venv .venv
 * No Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
 * No Linux/macOS:
-source .venv/bin/activate'''
+source .venv/bin/activate
+
+### No Powershell ainda
+pip install -r requirements.txt
+
+### Garanta que seu app.py aponte para o caminho correto do Agente Jurídico
+MODEL_PATH = "Bertimbau_Folder"
+
+###Execute o conteiner
+docker run -d -p 8080:8080 --name api-juridica agente-juridico
 
 ## 📜 Créditos e Modelos de Base
 

@@ -1,9 +1,18 @@
 ## 😁 Como usar
-### Copie o Repositório
-git clone https://github.com/Danielbegin/agentejuridico.git
+# 🤖 Agente Jurídico - Triagem Automática com BERTimbau
+
+API para classificação e triagem de documentos jurídicos em três categorias (*acórdão*, *despacho* e *decisão monocrática*), desenvolvida como projeto de pesquisa no IFRJ.
+
+---
+
+## 🛠️ Como usar
+
+### 1. Copie o Repositório
+''''bash
+git clone [https://github.com/Danielbegin/agentejuridico.git](https://github.com/Danielbegin/agentejuridico.git)
 cd agentejuridico
 
-### Criei e ative um ambiente virtual
+### Crie e ative um ambiente virtual
 python -m venv .venv
 * No Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
@@ -16,7 +25,8 @@ pip install -r requirements.txt
 ### Garanta que seu app.py aponte para o caminho correto do Agente Jurídico
 MODEL_PATH = "Bertimbau_Folder"
 
-###Execute o conteiner
+### Executar o Container Docker
+'''bash
 docker run -d -p 8080:8080 --name api-juridica agente-juridico
 
 ## 📜 Créditos e Modelos de Base

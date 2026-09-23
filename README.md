@@ -1,13 +1,13 @@
 ## 😁 Como usar
-* ** Copie o Repositório
+# Copie o Repositório
 '''git clone https://github.com/Danielbegin/agentejuridico.git
 cd agentejuridico
 '''
-* ** Criei e ative um ambiente virtual
+# Criei e ative um ambiente virtual
 '''python -m venv .venv
-### No Windows (PowerShell):
+* No Windows (PowerShell):
 .\.venv\Scripts\Activate.ps1
-### No Linux/macOS:
+* No Linux/macOS:
 source .venv/bin/activate'''
 
 ## 📜 Créditos e Modelos de Base

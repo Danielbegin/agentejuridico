@@ -1,16 +1,3 @@
-# Agente Jurídico - Triagem Automática com BERTimbau
-
-API para classificação de documentos jurídicos em três categorias (*acórdão*, *despacho* e *decisão monocrática*), desenvolvida como projeto de pesquisa no IFRJ.
-
-## 🛠️ Como Executar Localmente
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
-# Iniciar servidor da API
-uvicorn app:app --reload --port 8080
-Acessar documentação interativa: http://127.0.0.1:8080/docs
-
 ## 📜 Créditos e Modelos de Base
 
 Este projeto utiliza o modelo pré-treinado em português brasileiro **BERTimbau**:

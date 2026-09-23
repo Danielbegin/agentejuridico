@@ -1,3 +1,15 @@
+## 😁 Como usar
+* ** Copie o Repositório
+'''git clone https://github.com/Danielbegin/agentejuridico.git
+cd agentejuridico
+'''
+* ** Criei e ative um ambiente virtual
+'''python -m venv .venv
+# No Windows (PowerShell):
+.\.venv\Scripts\Activate.ps1
+# No Linux/macOS:
+source .venv/bin/activate'''
+
 ## 📜 Créditos e Modelos de Base
 
 Este projeto utiliza o modelo pré-treinado em português brasileiro **BERTimbau**:
